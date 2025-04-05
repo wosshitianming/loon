@@ -18,4 +18,4 @@ hostname=notability.com
 
 [Script]
 
-http-response ^https://notability.com/subscriptions requires-body=1,script-path=https://raw.githubusercontent.com/wosshitianming/heaetbeat_zzZ/refs/heads/main/notability.js
+http-response ^https://notability.com/subscriptions requires-body=1,script-path=https://raw.githubusercontent.com/wosshitianming/loon/refs/heads/main/notability-loon.js
