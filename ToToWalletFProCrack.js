@@ -30,63 +30,58 @@ var objc = JSON.parse($response.body);
 
     objc = 
 {
-  "request_date": "2022-01-27T05:56:29Z",
-  "request_date_ms": 1643262989454,
-  "subscriber": {
-    "entitlements": {
-      "all": {
-        "expires_date": null,
-        "grace_period_expires_date": null,
-        "product_identifier": "com.ziheng.totowallet.onetimepurchase",
-        "purchase_date": "2022-01-27T04:17:03Z"
-      }
+  "request_date_ms" : 1753827477478,
+  "request_date" : "2025-07-29T22:17:57Z",
+  "subscriber" : {
+    "non_subscriptions" : {
+
     },
-    "first_seen": "2021-11-24T07:17:57Z",
-    "last_seen": "2022-01-27T04:17:54Z",
-    "management_url": "itms-apps://apps.apple.com/account/subscriptions",
-    "non_subscriptions": {
-      "com.ziheng.totowallet.onetimepurchase": [{
-        "id": "6060eea19b",
-        "is_sandbox": true,
-        "original_purchase_date": "2022-01-27T04:17:03Z",
-        "purchase_date": "2022-01-27T04:17:03Z",
-        "store": "app_store"
-      }]
+    "first_seen" : "2023-09-21T11:20:58Z",
+    "original_application_version" : "261",
+    "other_purchases" : {
+
     },
-    "original_app_user_id": "$RCAnonymousID:4cbe36e7dbdf4bd38e206e71622164e1",
-    "original_application_version": "1.0",
-    "original_purchase_date": "2013-08-01T07:00:00Z",
-    "other_purchases": {
-      "com.ziheng.totowallet.onetimepurchase": {
-        "purchase_date": "2022-01-27T04:17:03Z"
-      }
-    },
-    "subscriptions": {
-      "com.ziheng.totowallet.monthly": {
-        "billing_issues_detected_at": null,
-        "expires_date": "2022-02-11T11:15:28Z",
-        "grace_period_expires_date": null,
-        "is_sandbox": false,
-        "original_purchase_date": "2022-01-11T11:15:29Z",
-        "ownership_type": "PURCHASED",
-        "period_type": "normal",
-        "purchase_date": "2022-01-11T11:15:28Z",
-        "store": "app_store",
-        "unsubscribe_detected_at": "2022-01-24T05:49:32Z"
+    "management_url" : null,
+    "subscriptions" : {
+      "com.ziheng.totowallet.onetimepurchase" : {
+        "store" : "app_store",
+        "purchase_date" : "2024-09-09T09:09:09Z",
+        "is_sandbox" : false,
+        "original_purchase_date" : "2024-09-09T09:09:09Z",
+        "store_transaction_id" : "490001314520000",
+        "ownership_type" : "PURCHASED"
       },
-      "com.ziheng.totowallet.yearly": {
-        "billing_issues_detected_at": null,
-        "expires_date": "2021-12-21T09:56:52Z",
-        "grace_period_expires_date": null,
-        "is_sandbox": false,
-        "original_purchase_date": "2021-12-18T09:56:53Z",
-        "ownership_type": "PURCHASED",
-        "period_type": "trial",
-        "purchase_date": "2021-12-18T09:56:52Z",
-        "store": "app_store",
-        "unsubscribe_detected_at": "2021-12-19T13:27:33Z"
+      "com.ziheng.totowallet.yearly" : {
+        "management_url" : "https://apps.apple.com/account/subscriptions",
+        "expires_date" : "2025-01-14T19:40:11Z",
+        "is_sandbox" : false,
+        "original_purchase_date" : "2025-01-11T19:40:12Z",
+        "refunded_at" : null,
+        "store_transaction_id" : "350002320335501",
+        "unsubscribe_detected_at" : "2025-01-14T19:58:30Z",
+        "grace_period_expires_date" : null,
+        "period_type" : "trial",
+        "price" : {
+          "amount" : 0,
+          "currency" : "USD"
+        },
+        "purchase_date" : "2025-01-11T19:40:11Z",
+        "display_name" : null,
+        "billing_issues_detected_at" : null,
+        "ownership_type" : "PURCHASED",
+        "store" : "app_store",
+        "auto_resume_date" : null
       }
-    }
+    },
+    "entitlements" : {
+      "all" : {
+        "product_identifier" : "com.ziheng.totowallet.onetimepurchase",
+        "purchase_date" : "2024-09-09T09:09:09Z"
+      }
+    },
+    "original_purchase_date" : "2023-09-21T11:20:13Z",
+    "original_app_user_id" : "$RCAnonymousID:4cbe36e7dbdf4bd38e206e71622164e1",
+    "last_seen" : "2025-07-29T02:42:47Z"
   }
 };
 
