@@ -53,7 +53,7 @@ var objc = JSON.parse($response.body);
         "store": "app_store"
       }]
     },
-    "original_app_user_id": "$RCAnonymousID:04d7eec58523496c9b29d3d6f4580ab6",
+    "original_app_user_id": "$RCAnonymousID:4cbe36e7dbdf4bd38e206e71622164e1",
     "original_application_version": "1.0",
     "original_purchase_date": "2013-08-01T07:00:00Z",
     "other_purchases": {
