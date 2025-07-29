@@ -12,10 +12,10 @@
 
 [MITM]
 
-hostname=api.revenuecat.com
+hostname=api.rc-backup.com
 
 
 
 [Script]
 
-http-response ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/ToToWalletFProCrack.js,requires-body=1,tag=图图记账解锁永久高级版
+http-response ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ script-path=https://raw.githubusercontent.com/wosshitianming/loon/refs/heads/main/ToToWalletFProCrack.js,requires-body=1,tag=图图记账解锁永久高级版
