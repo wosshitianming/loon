@@ -80,7 +80,7 @@ var objc = JSON.parse($response.body);
       }
     },
     "original_purchase_date" : "2023-09-21T11:20:13Z",
-    "original_app_user_id" : "$RCAnonymousID:4cbe36e7dbdf4bd38e206e71622164e1",
+    "original_app_user_id" : "$RCAnonymousID:3A4cbe36e7dbdf4bd38e206e71622164e1",
     "last_seen" : "2025-07-29T02:42:47Z"
   }
 };
